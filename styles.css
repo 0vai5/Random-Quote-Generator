@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(src/Gilroy-ExtraBold.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Gilroy";
+}
+
+
+#img{
+    border-radius: 50%;
+    width: 12rem;
+             height: 12rem;
+
+}
+
+body{
+    background-color: #000;
+    height: 100%;
+}
+
+.container{
+    
+    margin-top: 175px;
+    text-align: center;
+    background-color: #000;
+}
+
+p{
+    padding: 10px 20px;
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+cite{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#next{
+    position: relative;
+    padding: 1.5vh 3vh;
+    font-size: 1.6rem;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 0;
+    background-color: #646464;
+    color: #fff;
+}
+
+
+
+@media (max-width: 600px) {
+    .conatiner{
+display: column-flex;
+}
+}
