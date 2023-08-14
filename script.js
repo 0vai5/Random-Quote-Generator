@@ -39,6 +39,7 @@ else if (randomNo==6) {
 else if (randomNo==7) {
     document.getElementById('img').src = "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/authors/1539614337i/63191.jpg"
     document.getElementById('p').innerHTML = '<b>"فراد کے ہاتھوں میں ہے اقوام کی تقدیر <br> ہر فرد ہے ملّت کے مقدر کا ستارہ۔"</b>';
+    document.getElementById('p').style.fontSize = '3rem';
     document.getElementById('cite').innerHTML = '― Allama Iqbal';
 }
 else if (randomNo==8) {
